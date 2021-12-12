@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$FontFamily: 'Roboto', sans-serif;
+$FontColor: black;
+
+$IconColor: black;
+
+$PrimaryBgColor: aqua;
+$SecondaryBgColor: gray;
+
+body {
+    background-color: $PrimaryBgColor;
+    font-family: $FontFamily;
+    font-size: large;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: gray;
+    overflow: hidden;
+    list-style: none;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.navbar a {
+    background-color: aqua;
+    border-radius: 3px;
+    float: left;
+    color: $FontColor;
+    text-align: center;
+    padding: 15px;
+    margin-inline: 3px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar i {
+    padding-right: 5px;
+    color: $IconColor;
+}
+
+#rtab {
+    background-color: aqua;
+}
